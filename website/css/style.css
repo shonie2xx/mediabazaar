@@ -1,0 +1,405 @@
+#Header
+{
+	width:100%;
+	height:50px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	top: 0;
+	left: 0;
+	right: 0;
+	/*position: fixed;*/
+	overflow: hidden;
+	
+}
+.Header
+{
+	width: 100%;
+	height: 50px;
+	background-color: #FFF;
+	box-shadow: inset 5px 0px 20px 0px #6d6c6c4d;
+	
+}
+.aHrefMenu
+{
+	color: #000;
+	text-decoration: none;
+}
+.Logo
+{
+	width: 16%;
+	height:37px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 22px;
+	padding: 12px 0 0 40px;
+	float: left;
+	margin: #;
+}
+.MenuButton
+{
+	width: 130px;
+	height: 37px;
+	letter-spacing: 3px;
+	font-weight:500;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	float: left;
+	padding: 13px 0px 0px 0px;
+	margin-left: 30px;
+	text-align: center;
+}
+.MenuButtonRight
+{
+	width: 130px;
+	height: 37px;
+	letter-spacing: 3px;
+	font-weight:500;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	float: left;
+	padding: 13px 0px 0px 0px;
+	margin-left: 30px;
+	text-align: center;
+	float: right;
+}
+.MenuButton:hover {
+	background-color: #1973B1;
+	color: #FFF;
+	
+}
+.MenuButton:active	{
+	background-color: #000;
+	color: #6d6c6c;
+}
+.MenuButtonRight:hover {
+	background-color: #1973B1;
+	color: #FFF;
+	
+}
+.MenuButtonRight:active	{
+	background-color: #000;
+	color: #6d6c6c;
+}
+.firstnameOfTheUser{
+    font:black;
+    position: relative;
+    margin-left: 0%;
+    padding-bottom: 3%;
+}
+table{
+  border-collapse : collapse;;
+  width : 100%;
+  color : black;
+  font-family : bahnschrift;
+  font-size: 20px;
+  text-align: left;
+
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-family : "Comic Sans MS", "Comic Sans", cursive;
+  color:#000000;
+}
+th{
+  background-color: #317195;
+  color: white;
+  font-size: 20px;
+}
+tr:nth-child(even){background-color: white}
+
+body {
+background-image: url("../img/clouds2.jpg");
+background-color: #cccccc;
+background-repeat: no-repeat;
+background-position: relative;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+overflow: hidden;
+}
+.firstnameOfTheUser{
+  font-size: 20px;
+  text-align:center;
+  font-family : "Comic Sans MS", "Comic Sans", cursive;
+}
+.btnlogout{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 33px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1% 42%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.btnlogout{
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.btnlogout:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+#login{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+#loginBox label{
+  font-size: 1rem;
+	line-height: 1.6rem;
+	font-weight: 400;
+}
+#login .primary-btn
+{
+	margin-top: 3rem;
+	padding: 0.7rem 0rem;
+	width: 100%;
+	height: 2.5rem;
+	display: block;
+	border: 0;
+	border-radius: 3px;
+	font-weight: 500;
+	background-color: #08B6CE;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	transition: all 0.7s;
+}
+#logo{
+  text-align: center;
+}
+#logo img{
+  margin: 30px 0px;
+  width: 160px;
+  height: 140px;
+
+}
+.containerLogin{
+  width: 25%;
+  height: 60%;
+  background-color: whitesmoke;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.containerChangeCredentials{
+  width: 30%;
+  height: 95%;
+  background-color: whitesmoke;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#loginBox .text-input
+{
+	margin-bottom: 1rem;
+	width: 100%;
+	border-radius: 2px;
+	background: #f5fdff;
+	border: 1px solid #555;
+	color: #00586e;
+	padding: 0.6 rem;
+	line-height: 1.3rem;
+}
+#login .primary-btn:hover
+{
+	background-color: #398AD7;
+}
+
+
+.containerlogin .links a
+{
+	display: block;
+	color: #398AD7;
+	text-decoration: none;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: 1rem;
+	transition: all 0.7s;
+}
+.containerChangeCredentials .links a:hover{
+  color: #317195;
+}
+
+.containerChangeCredentials .links a
+{
+  margin-top: 1rem;
+	display: block;
+	color: #398AD7;
+	text-decoration: none;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: 1rem;
+	transition: all 0.7s;
+}
+.containerLogin .links a:hover{
+  color: #317195;
+}
+
+@media(max-width: 1000px)
+{
+	body
+	{
+		overflow: auto;
+	}
+	#login
+	{
+		justify-content: start;
+		margin-top: 4vh;
+	}
+	.containerlogin .logo
+	{
+		margin-bottom: 2vh;
+	}
+	.loginBox .text-input
+	{
+		margin-bottom: 0.6rem;
+  }
+  #login .containerLogin {
+    width: 60%;
+  }
+}
+
+.monday{
+  padding-bottom: 10px;
+
+}
+a.btn-secondary{
+display:inline-block;
+padding:0.3em 1.2em;
+margin:0.5em 0.3em 0.3em 0;
+border-radius:2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Arial',sans-serif;
+font-weight:500;
+color:#FFFFFF;
+background-color:#4eb5f1;
+text-align:center;
+transition: all 0.2s;
+font-size: 25px;
+}
+a.btn-secondary:hover{
+background-color:#4095c6;
+}
+@media all and (max-width:30em){
+a.btn-secondary{
+display:block;
+margin:0.2em auto;
+ }
+}
+
+.Profile_box {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+  font-family: arial;
+  background-color: whitesmoke;
+}
+.back{
+	display: block;
+	color: #398AD7;
+	text-decoration: none;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: 1rem;
+	transition: all 0.7s;
+}
+
+.title {
+  color: rgb(48, 48, 48);
+  font-size: 22px;
+}
+
+.Profile_box .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.back_link {
+	display: block;
+	color: #398AD7;
+	text-decoration: none;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: 1rem;
+	transition: all 0.7s;
+}
+.Profile_box .links:hover{
+	color: #317195;
+}
+
+.Profile_box :hover, a:hover {
+  opacity: 0.7;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.availability_box{
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  margin-top: 200px;
+  text-align: center;
+  font-family: arial;
+  background-color: whitesmoke;
+}
+.available-btn
+{
+  margin-top: 3rem;
+	padding: 0.7rem 0rem;
+	width: 100%;
+	height: 2.5rem;
+	display: block;
+	border: 0;
+	border-radius: 3px;
+	font-weight: 500;
+	background-color: #08B6CE;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	transition: all 0.7s;
+}
+.available-btn:hover
+{
+	background-color: #398AD7;
+}
