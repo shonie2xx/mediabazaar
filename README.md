@@ -20,7 +20,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project was build in group of 4 students. It is windows form application developed in C#.
+This project was build in group of 4 students. It is windows form application developed in C#. 
 
 
 ### Project assignment
